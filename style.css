@@ -133,7 +133,9 @@ svg {
 	padding: 0.5rem;
 	background-color: #ede6e1;
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	gap: 5px;
+	grid-template-columns: 40px repeat(3, 1fr);
+	align-items: center;
 	margin-top: 1rem;
 }
 
