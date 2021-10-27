@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	background-color: #fe7c61;
+	display: grid;
+}
+
+.header {
+	margin: 2rem;
+	padding: 1rem;
+	display: grid;
+	grid-auto-flow: column;
+	justify-content: space-between;
+	background-color: #35382e;
+	color: #ece5e0;
+}
+
+.header .logo {
+	font-variant: small-caps;
+	font-size: 1.5rem;
+}
+
+.navigation ul {
+	display: grid;
+	gap: 0.5rem;
+	grid-auto-flow: column;
+	list-style: none;
+}
+
+.navigation ul li a {
+	color: #ece5e0;
+	font-size: 1.1rem;
+	text-decoration: none;
+}
+
+.navigation ul li a:hover {
+	text-decoration: underline;
+}
+
+.main {
+	padding: 1rem;
+	margin: 10rem 0;
+	justify-self: center;
+	background-color: #35382e;
+	display: grid;
+	width: 65ch;
+	justify-content: center;
+	border-radius: 0.5rem;
+}
+.main .title {
+	text-align: center;
+	font-size: 1.2rem;
+	color: #ffcf00;
+	margin-bottom: 1rem;
+}
+
+.main .description-content {
+	color: #faf9f9;
+	line-height: 1.4rem;
+}
+
+.main .description-content .important-text {
+	color: #57b5d7;
+}
+.projects {
+	background-color: #ede6e1;
+	padding: 1.5rem;
+}
+.projects .projects-title {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+.projects-container {
+	gap: 2rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 300px);
+	place-content: center;
+}
+.projects .project {
+	background-color: whitesmoke;
+	padding: 1rem;
+	display: grid;
+	align-items: center;
+}
+.projects .project .project-title {
+	color: #fe7c61;
+}
+
+.projects .project .project-description {
+	color: grey;
+}
+.projects .project .project-link {
+	width: 100%;
+	display: inline-block;
+	background-color: #fe7c61;
+	text-transform: uppercase;
+	text-align: center;
+	color: whitesmoke;
+	text-decoration: none;
+	margin-top: 0.5rem;
+	padding: 0.5rem;
+}
+.experiences {
+	padding: 2rem;
+	background-color: #5cc3eb;
+	display: grid;
+	place-content: center;
+}
+
+.experiences .expriences-title {
+	text-align: center;
+}
+
+.experiences .experience {
+	padding: 0.5rem;
+	background-color: #ede6e1;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin-top: 1rem;
+}
+
+.footer {
+	background-color: #35382e;
+	padding: 1rem;
+	text-align: center;
+}
+
+.footer a {
+	color: whitesmoke;
+	text-decoration: none;
+}
