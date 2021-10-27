@@ -53,6 +53,7 @@ body {
 	width: 65ch;
 	justify-content: center;
 	border-radius: 0.5rem;
+	z-index: 1;
 }
 .main .title {
 	text-align: center;
@@ -69,6 +70,13 @@ body {
 .main .description-content .important-text {
 	color: #57b5d7;
 }
+
+.svg {
+	position: absolute;
+	top: 7rem;
+	left: 2rem;
+}
+
 .projects {
 	background-color: #ede6e1;
 	padding: 1.5rem;
